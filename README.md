@@ -1,10 +1,10 @@
 # Dog-vs-Cat-Classification-with-Transfer-Learning-using-VGG16
-Implementation of binary classification with Dog and Cat images using VGG16 architecture and Transfer Learning techniques.
+Implementation of binary classification with **Dog and Cat images** using **VGG16** architecture and **Transfer Learning** techniques.
 
 ## About The Project
 
 * This project focuses on binary image classification, distinguishing between images of dogs and cats. It leverages the power of the VGG16 architecture and Transfer Learning techniques to achieve highly accurate classification results.
-* The pre-trained weights from the ImageNet dataset, which includes a wide range of object categories, are used to enhance the model's ability to recognize and classify dog and cat images.
+* The pre-trained weights from the **ImageNet** dataset, which includes a wide range of object categories, are used to enhance the model's ability to recognize and classify dog and cat images.
 * This repository provides a comprehensive implementation of the classification process and serves as a valuable resource for exploring the world of Transfer Learning with VGG16.
 
 ## Technology Used
@@ -17,13 +17,14 @@ Implementation of binary classification with Dog and Cat images using VGG16 arch
 * Tensorflow
 
 ## Dataset Used
-  - [Dogs vs. Cats | Kaggle](https://www.kaggle.com/competitions/dogs-vs-cats) 
-  - Training data:
-    - Dog: 500 images
-    - Cat: 500 images
-  - Testing data
-    - Dog: 100 images
-    - Cat: 100 images
+  - This project uses collections of dog and cat images obtained from the Asirra (Animal Species Image Recognition for Restricting Access) dataset, which is available on [Dogs vs. Cats | Kaggle](https://www.kaggle.com/competitions/dogs-vs-cats).
+  - The amount of data used in this project:
+    - Training data:
+      - Dog: 500 images
+      - Cat: 500 images
+    - Testing data
+      - Dog: 100 images
+      - Cat: 100 images
 
 ## Workflow
 - Data Preparation
@@ -35,9 +36,9 @@ Implementation of binary classification with Dog and Cat images using VGG16 arch
 - Model Testing & Evaluation
 
 ## Algorithms/ Methods
-* This project applies Transfer Learning methods by utilizing the VGG16 architecture with pre-trained weights sourced from ImageNet, encompassing around 1000 object categories.
-* The training process uses a fine-tuned method, which allows all of the layers to update their weights during the training process.
-* Parameters:
+* This project applies **Transfer Learning** methods by utilizing the **VGG16 architecture** with pre-trained weights sourced from **ImageNet**, encompassing around 1000 object categories.
+* The training process uses a **fine-tuned method**, which allows all of the layers to update their weights during the training process.
+* **Parameters:**
   * Epoch: 200
   * Batch = 10 (100 steps per epoch, because the number of training data is 1000)
   * Loss/ Cost Function = Binary Cross Entropy
@@ -66,9 +67,6 @@ Implementation of binary classification with Dog and Cat images using VGG16 arch
 |Macro Avg|  0.94   |  0.94  |   0.94   |   200   |
 |Weighted Avg|  0.94  |  0.94  |   0.94   |   200   |
 
-## Conclusion
-
-
 ## Contributors
 * [Linggar Maretva Cendani](https://github.com/LinggarM) - [linggarmc@gmail.com](mailto:linggarmc@gmail.com)
 
@@ -76,6 +74,4 @@ Implementation of binary classification with Dog and Cat images using VGG16 arch
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-- [UCI Machine Learning - Pima Indians Diabetes Database](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
-- [John - Diabetes Dataset](https://www.kaggle.com/johndasilva/diabetes)
-- [Ishan Dutta - Early Stage Diabetes Risk Prediction Dataset](https://www.kaggle.com/ishandutta/early-stage-diabetes-risk-prediction-dataset)
+- Asirra (Animal Species Image Recognition for Restricting Access) dataset: [Dogs vs. Cats | Kaggle](https://www.kaggle.com/competitions/dogs-vs-cats).
