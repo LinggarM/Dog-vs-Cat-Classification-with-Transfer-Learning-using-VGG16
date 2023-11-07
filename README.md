@@ -25,6 +25,15 @@ Implementation of binary classification with **Dog and Cat images** using **VGG1
     - Testing data
       - Dog: 100 images
       - Cat: 100 images
+  - Sample Images
+    - Cat
+      1 | 2 | 3 | 4 | 5
+      :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+      ![Cat 1](data_dogvscat/data/train/cat.1.jpg) | ![Cat 2](data_dogvscat/data/train/cat.10.jpg) | ![Cat 3](data_dogvscat/data/train/cat.100.jpg) | ![Cat 4](data_dogvscat/data/train/cat.200.jpg) | ![Cat 5](data_dogvscat/data/train/cat.300.jpg)
+    - Dog
+      1 | 2 | 3 | 4 | 5
+      :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+      ![Dog 1](data_dogvscat/data/train/dog.1.jpg) | ![Dog 2](data_dogvscat/data/train/dog.10.jpg) | ![Dog 3](data_dogvscat/data/train/dog.100.jpg) |  ![Dog 4](data_dogvscat/data/train/dog.200.jpg) |  ![Dog 5](data_dogvscat/data/train/dog.300.jpg)
 
 ## Workflow
 - Data Preparation
